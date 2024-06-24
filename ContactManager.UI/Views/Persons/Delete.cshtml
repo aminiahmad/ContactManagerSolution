@@ -1,0 +1,53 @@
+﻿@model PersonResponse
+@{
+    ViewBag.Title = "Create Person";
+    ViewBag.CurrentUrl = "~/Persons/Delete";
+}
+<div class="flex">
+    <div class="flex-1">
+        <div class="text-grey">
+            <span>Contacts</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Persons</span>
+            <i class="fa-solid fa-caret-right"></i>
+            <span class="text-grey">Delete</span>
+        </div>
+    </div>
+</div>
+<div class="form-container">
+    <a asp-controller="Persons" asp-action="Index" class="link-hover">back to persons list</a>
+    <h2 class="text-large">Delete Person</h2>
+    <form asp-controller="Persons" asp-action="Edit" method="post">
+        <input type="hidden" asp-for="PersonId"/>
+        @*Person name*@
+        <div class="flex">
+            <div class="w-25">
+                <label asp-for="PersonName" class="form-label">Person Name</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="PersonName" class="form-input" disabled="disabled"/>
+                <span asp-validation-for="PersonName" class="text-red"></span>
+            </div>
+        </div>
+        @*Email*@
+        <div class="flex">
+            <div class="w-25">
+                <label asp-for="Email" class="form-label">Email</label>
+            </div>
+            <div class="flex-1">
+                <input asp-for="Email" class="form-input" disabled="disabled"/>
+                <span asp-validation-for="Email" class="text-red"></span>
+            </div>
+        </div>
+        @*Submit*@
+        <div class="flex">
+            <div class="w-25">
+            </div>
+            <div class="flex-1">
+                <button class="button-red-back button">Delete</button>
+                <div asp-validation-summary="All" class="text-red"></div>
+            </div>
+        </div>
+
+    </form>
+</div>

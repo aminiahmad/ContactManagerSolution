@@ -1,0 +1,33 @@
+[
+  {
+    "PersonId": "A42B03A8-35CD-4CF2-841D-F8445EB91475",
+    "PersonName": "reza",
+    "Email": "awdaw@gmail.com",
+    "Gender": "Male",
+    "DateOfBirth": "1990-12-20",
+    "Address": "wadawfgsrgsfef",
+    "CountryId": "5ABD89BB-3453-4149-BD2F-67A1A1F7B468",
+    "ReceiveNewsLetters": true
+  },
+  {
+    "PersonId": "69E6D235-6A3F-4BBA-89BE-FC82E7C5816A",
+    "PersonName": "sara",
+    "Email": "awdaw12@gmail.com",
+    "Gender": "Female",
+    "DateOfBirth": "1995-12-20",
+    "Address": "wa157wdfwa",
+    "CountryId": "A1CBB2EC-8CE3-427B-861C-04D436E78058",
+    "ReceiveNewsLetters": false
+  },
+  {
+    "PersonId": "7C57CDB1-1AD0-41C9-88C4-4261787BD24B",
+    "PersonName": "ahmad",
+    "Email": "awdwadfgeaw@gmail.com",
+    "Gender": "Male",
+    "DateOfBirth": "1990-12-20",
+    "Address": "wadawfgsrgsfef",
+    "CountryId": "0B9E7DF1-5933-4AE5-8F7F-6CD0D56A0D89",
+    "ReceiveNewsLetters": true
+  }
+
+]
